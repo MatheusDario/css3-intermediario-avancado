@@ -1,15 +1,14 @@
-<<<<<<< HEAD
+
 /* **Seletor Universal** 
 * {
 	border: 1px solid red;
 }*/
 
-/* **Seletor de Texto** */
-h1 {
+/* **Seletor de Texto** *
 	color: green;
 }
 
-/* **Seletor de Classe** */
+/* **Seletor de Classe** 
 .vermelho {
 	color: red;
 }
@@ -18,28 +17,28 @@ p.azul {
 	color: blue;
 }
 
-/* **Seletor de ID** */
+/* **Seletor de ID** 
 #cabecalho {
 	border: 1px solid blue;
 }
 
-/* **Seletor de Filho** */
+/* **Seletor de Filho** 
 li>a {
 	color: red;
 	text-decoration: none;
 }
 
-/* **Seletor de Descendente** */
+/* **Seletor de Descendente** 
 div a {
 	color: green;
 }
 
-/* **Seletor de Irmão adjacente** */
+/* **Seletor de Irmão adjacente** 
 h1+p {
 	color: yellow;
 }
 
-/* **Seletor de Irmão geral** */
+/* **Seletor de Irmão geral** 
 h1~p {
 	color: pink;
 =======
@@ -72,7 +71,7 @@ li {
 	padding: 5px 20px;
 	background: url(../imagens/seta.png) no-repeat left center;
 }
-*/
+
 
 ul {
 	margin: 0;
@@ -88,11 +87,54 @@ ul a {
 	text-decoration: none;
 	text-indent: 40px;
 	line-height: 40px;
-	background: url(../imagens/menu.png) no-repeat left bottom;
+	background: #fcb600 url(../imagens/menu.png) no-repeat left bottom;
 }
 
 a:hover {
 	background-position: right bottom;
+	background-color: #f99200;
 	color: #fff;
->>>>>>> upstream/main
 }
+
+/*#home .home a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+	background: none;
+}	
+
+ul a:hover {
+	color: #085662;
+	background: #44cade;
+}
+
+#home .home a {
+	color: #085662;
+	background: #44cade;
+
